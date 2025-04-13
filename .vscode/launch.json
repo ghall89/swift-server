@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:swift-server}",
+      "name": "Debug swift-server",
+      "program": "${workspaceFolder:swift-server}/.build/debug/swift-server",
+      "preLaunchTask": "swift: Build Debug swift-server"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:swift-server}",
+      "name": "Release swift-server",
+      "program": "${workspaceFolder:swift-server}/.build/release/swift-server",
+      "preLaunchTask": "swift: Build Release swift-server"
+    }
+  ]
+}
